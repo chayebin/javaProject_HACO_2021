@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="CONTROL.BUSINESS.BusMenuModController">
+	<children>
+		<Label layoutX="90.0" layoutY="20.0" prefHeight="21.0"
+			prefWidth="120.0" text="메뉴 내용 수정">
+			<font>
+				<Font size="18.0" />
+			</font>
+		</Label>
+		<Button fx:id="moveToMenuList" layoutX="21.0" layoutY="19.0"
+			mnemonicParsing="false" text="취소" />
+		<Button fx:id="doDeleteMenu" layoutX="94.0" layoutY="154.0"
+			mnemonicParsing="false" text="삭제" />
+		<Label layoutX="21.0" layoutY="54.0" prefHeight="36.0"
+			prefWidth="68.0" text="메뉴 이름">
+			<font>
+				<Font size="13.0" />
+			</font>
+		</Label>
+		<TextField fx:id="menuName" layoutX="94.0" layoutY="61.0" />
+		<Label layoutX="36.0" layoutY="101.0" prefHeight="36.0"
+			prefWidth="39.0" text="가격 ">
+			<font>
+				<Font size="13.0" />
+			</font>
+		</Label>
+		<TextField fx:id="menuPrice" layoutX="94.0" layoutY="105.0" />
+		<Button fx:id="doModifyMenu" layoutX="178.0" layoutY="154.0"
+			mnemonicParsing="false" text="수정" />
+	</children>
+</AnchorPane>

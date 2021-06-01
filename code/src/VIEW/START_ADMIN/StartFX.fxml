@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0"
+	fx:controller="CONTROL.START_ADMIN.StartController"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+	
+		<Button layoutX="83.0" layoutY="76.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="235.0" text="소비자 로그인" fx:id="moveToConLogin" />
+			
+		<Button layoutX="83.0" layoutY="127.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="235.0" text="사업자 로그인" fx:id="moveToBusLogin" />
+
+		<Button layoutX="181.0" layoutY="237.0" mnemonicParsing="false" text="종료" onAction="#handlerExitAction" />
+			
+	</children>
+</AnchorPane>

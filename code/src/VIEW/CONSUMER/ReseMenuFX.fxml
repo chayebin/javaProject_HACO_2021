@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROL.CONSUMER.ConControlReseMenu">
+	<children>
+	
+      <Button fx:id="moveToReseRest" layoutX="20.0" layoutY="22.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="50.0" text="←" />
+      
+      <Button fx:id="doReservation" layoutX="321.0" layoutY="22.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="64.0" text="예약완료" />
+      
+      <TableView fx:id="tableView" layoutX="15.0" layoutY="100.0" prefHeight="186.0" prefWidth="370.0">
+        <columns>
+          <TableColumn prefWidth="192.0" text="메뉴" />
+          <TableColumn prefWidth="177.0" text=" 가격" />
+        </columns>
+      </TableView>
+
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f5f5f4" height="33.0" layoutX="91.0" layoutY="22.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <!-- 금액계산 하여 출력하는 부분입니다 -->
+      <Text layoutX="177.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" fx:id="price" />
+      <Label layoutX="261.0" layoutY="32.0" text="원" />
+      <Label layoutX="98.0" layoutY="62.0" text="키보드를 사용해주세요! A(추가) S(삭제)" />
+      
+      
+   </children>
+</AnchorPane>

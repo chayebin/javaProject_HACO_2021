@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="CONTROL.BUSINESS.BusMenuListController">
+	<children>
+   
+      <TableView fx:id="tableView" layoutX="48.0" layoutY="51.0" prefHeight="200.0" prefWidth="300.0">
+         <columns>
+            <TableColumn prefWidth="100.0" text="번호" />
+            <TableColumn prefWidth="100.0" text="메뉴" />
+            <TableColumn prefWidth="100.0" text="가격" />
+         </columns>
+      </TableView>
+      
+      <Label layoutX="133.0" layoutY="19.0" prefHeight="21.0" prefWidth="144.0" text="식당 메뉴 List">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      
+      <Button fx:id="busAddMenu" layoutX="213.0" layoutY="266.0" mnemonicParsing="false" text="메뉴등록" />
+      <Button fx:id="moveToBusMain" layoutX="118.0" layoutY="266.0" mnemonicParsing="false" text="이전으로" />
+      
+   </children>
+</AnchorPane>

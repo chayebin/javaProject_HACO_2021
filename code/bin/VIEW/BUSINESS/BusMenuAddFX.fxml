@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="CONTROL.BUSINESS.BusMenuAddController">
+	<children>
+
+		<Label layoutX="106.0" layoutY="20.0" prefHeight="21.0" prefWidth="86.0" text="메뉴 등록">
+			<font>
+				<Font size="18.0" />
+			</font>
+		</Label>
+
+		<Button fx:id="moveToBusMenuList" layoutX="157.0" layoutY="154.0" mnemonicParsing="false" text="취소" />
+
+		<Button fx:id="menuAdd" layoutX="92.0" layoutY="154.0" mnemonicParsing="false" text="등록" />
+
+		<Label layoutX="21.0" layoutY="54.0" prefHeight="36.0" prefWidth="68.0" text="메뉴 이름">
+			<font>
+				<Font size="13.0" />
+			</font>
+		</Label>
+
+		<TextField fx:id="addMenuName" alignment="CENTER_RIGHT" layoutX="94.0" layoutY="61.0" />
+
+		<Label layoutX="36.0" layoutY="101.0" prefHeight="36.0" prefWidth="39.0" text="가격 ">
+			<font>
+				<Font size="13.0" />
+			</font>
+		</Label>
+
+		<TextField fx:id="addMenuPrice" alignment="CENTER_RIGHT" layoutX="94.0" layoutY="105.0" />
+
+	</children>
+</AnchorPane>

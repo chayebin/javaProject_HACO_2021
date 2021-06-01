@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+ fx:controller="CONTROL.BUSINESS.BusMainController">
+	<children>
+		<Button fx:id="busCheckRese" layoutX="84.0" layoutY="67.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="233.0" text="예약 내역 확인" />
+
+		<Button fx:id="busCheckMenu" layoutX="84.0" layoutY="119.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="233.0" text="메뉴 정보 확인" />
+
+		<Button layoutX="148.0" layoutY="216.0" mnemonicParsing="false" onAction="#handlerExitAction" prefHeight="23.0" prefWidth="106.0" text="종료" />
+
+		<Button fx:id="busLogout" layoutX="83.0" layoutY="166.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="233.0" text="로그아웃" />
+
+	</children>
+</AnchorPane>
