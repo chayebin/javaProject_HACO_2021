@@ -59,5 +59,6 @@
 * 사용자 메인 페이지
 <img width="295" alt="6CF739E2-4760-4AFF-ADDA-1206017AB6D4" src="https://user-images.githubusercontent.com/82797757/121150086-2d841f00-c87e-11eb-8870-64e509d48ce4.png">
 * 사용자 예약 페이지   
-![image](https://user-images.githubusercontent.com/82797757/121149706-db42fe00-c87d-11eb-88a0-7dcadf112a77.png)
+<img width="298" alt="323E9D17-9112-491D-B932-7692EAF58AF0" src="https://user-images.githubusercontent.com/82797757/121150350-6ae8ac80-c87e-11eb-80db-bea0b4c770a3.png">
+
 
